@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             ComposeDemoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Login",
                         modifier = Modifier.padding(innerPadding).clickable{
                             println("Clicked")
                         }
